@@ -46,6 +46,9 @@ __It's Magisk install-able, don't install it by TWRP but with Magisk instead!__
 #### Version 2.1
 - Template 1500 -> 17000.
 
+#### Version 3
+- New Magisk Module format.
+
 ## Links
 - [Module XDA Xiaomi MI 5 Forum Thread](https://forum.xda-developers.com/mi-5/how-to/step-step-definitive-gps-solution-global-t3695769)
 - [GitHub Module Page](https://github.com/Magisk-Modules-Repo/Global-Optimized-GPS-File-Replacer)
