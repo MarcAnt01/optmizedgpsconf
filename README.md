@@ -2,7 +2,7 @@
 This module provides an improved GPS functionality with a better and faster accuracy location reference.
 
 ## How it works?
-   The stock android **_gps.conf_** file found in *"/system/etc/gps.conf"* or *"/system/vendor/etc/gps.conf"* is replaced with a new one correctly edited for a better improvement and faster satellite signals fix/lock.  
+   The stock Android **_gps.conf_** file found in `system/etc/gps.conf` or `system/vendor/etc/gps.conf` is replaced with a new one correctly edited for a better improvement and faster satellite signals fix/lock.  
    This file is responsible for the correct GPS operation and functionality.  
    The default file found in most ROMs is very wrong and has a lot of bad information and settings for the correct operation and functionality of the GPS and A-GPS.  
    
@@ -32,9 +32,10 @@ __It's Magisk install-able, don't install it by TWRP but with Magisk instead!__
 5. When finished tap on **_REBOOT_**.
 6. Same **_4, 5, 6 and 7_** steps of **_Option 1 - Manually_**.
 
-   *__Note 1:__ Location mode __"Battery saving"__ is gone due to Google's location accuracy is now a binary setting. So consider using the __"High accuracy"__ mode one.*  
-   *__Note 2:__ Consider using the __GPS Locker__ app because it is much better than the __GPS Test__ and __GPS Data__. You just need to open it once and wait for fix, then your gps signal is locked and when you close it (just press __Cancel__ in __"Unlock GPS on exit"__ message) the app keep awake running in the background.*  
-   *__Note 3:__ GPS was made to work in outdoor places. For indoor/enclosed places such as inside of your house don't forget that, it will take a few minutes to fix. It drains more battery, but is required if you're an advanced user that use gps all the time.*  
+## Notes
+1. Location mode __"Battery saving"__ is gone due to Google's location accuracy is now a binary setting. So consider using the __"High accuracy"__ mode one. 
+2. Consider using the __GPS Locker__ app because it is much better than the __GPS Test__ and __GPS Data__. You just need to open it once and wait for fix, then your gps signal is locked and when you close it (just press __Cancel__ in __"Unlock GPS on exit"__ message) the app keep awake running in the background.
+3. GPS is made to work in outdoor places. For indoor/enclosed places such as inside of your house don't forget that, it will take a bit more to fix. It drains more battery, but is required if you're an advanced user that uses gps all the time.*  
    
 ## Changelog
 #### Version 1.0
